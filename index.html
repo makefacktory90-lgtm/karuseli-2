@@ -287,7 +287,7 @@
                         <p>$ РЕЗУЛЬТАТ ЧЕРЕЗ 3 НЕДЕЛИ</p>
                         <p>> AI пишет вашим голосом, не шаблонами</p>
                         <p>> 5 минут на вычитку вместо 3 часов</p>
-                        <p>> Контент-машина, которая работает без вас</p>
+                        <p>> Контент-машина, которая работает на вас</p>
                     </div>
                     <div class="slide">
                         <p>$ ОТЗЫВ: БЛАГОДАРНОСТЬ ОТ КОМПАНИИ</p>
@@ -316,12 +316,12 @@
                 <div class="btn-phys" onclick="toggleDark()" style="font-size: 9px; line-height: 1.2;">ЧЁРНЫЙ<br>КАЛЬКУЛЯТОР</div>
                 <div class="btn-phys" onclick="toggleLight()" style="font-size: 9px; line-height: 1.2;">БЕЛЫЙ<br>КАЛЬКУЛЯТОР</div>
 
-                <a href="#" class="btn-phys btn-big" style="background: #D32F2F; color: #fff; text-decoration: none; box-shadow: 4px 4px 0px #8B1F1F; border: none;">КУПИТЬ — 5 500 ₽</a>
+                <a href="https://payform.ru/b0aU7Y7/" class="btn-phys btn-big" style="background: #D32F2F; color: #fff; text-decoration: none; box-shadow: 4px 4px 0px #8B1F1F; border: none;">КУПИТЬ — 5 500 ₽</a>
 
                 <div class="btn-phys btn-half" onclick="togglePromo()" style="background: #000; color: #fff; box-shadow: 4px 4px 0px #333; font-size: 9px; line-height: 1.2;">ВВЕДИ<br>ПРОМОКОД</div>
                 <div class="btn-phys btn-half" style="opacity: 0.3;">÷</div>
 
-                <input type="text" id="promo-code" class="calc-input" placeholder="ПРОМОКОД: OLDSCHOOL" style="display: none;" onkeypress="if(event.key==='Enter')checkPromo()">
+                <input type="text" id="promo-code" class="calc-input" placeholder="ВВЕДИТЕ ПРОМОКОД" style="display: none;" onkeypress="if(event.key==='Enter')checkPromo()">
 
                 <div class="btn-phys" style="opacity: 0.3;">7</div>
                 <div class="btn-phys" style="opacity: 0.3;">8</div>
@@ -438,9 +438,9 @@
 
         function checkPromo() {
             const code = document.getElementById('promo-code').value.toLowerCase().trim();
-            if(code === 'oldschool' || code === 'я_давно_занимал') {
+            if(code === 'alfred20') {
                 playSuccess();
-                window.location.href = '#'; // Ира добавит ссылку на оплату со скидкой
+                window.location.href = 'https://payform.ru/gbaU80X/';
             } else {
                 playError();
                 document.getElementById('promo-code').value = '';
